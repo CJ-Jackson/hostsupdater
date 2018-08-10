@@ -1,0 +1,15 @@
+name = "Example"
+
+[[host]]
+comment = "Test 1"
+domains = [
+    "test1.test",
+    "test2.test"
+]
+
+[[host]]
+comment = "Test 2"
+domains = [
+    "test3.test",
+    "test4.test"
+]
