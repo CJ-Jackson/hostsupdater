@@ -88,5 +88,5 @@ func removeOldSetting(hostBytes []byte, name string) []byte {
 
 	buf.Write(hostBytes[pos+len(endB):])
 
-	return buf.Bytes()
+	return bytes.TrimSpace(buf.Bytes())
 }
