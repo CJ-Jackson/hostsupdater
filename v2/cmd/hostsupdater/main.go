@@ -31,7 +31,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	hostsFile, err := os.Open(wd + "/hosts.toml")
+	hostsFile, err := os.Open(wd + "/hosts.json")
 	if err != nil {
 		log.Fatal(err)
 	}
